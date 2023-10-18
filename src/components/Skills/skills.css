@@ -38,6 +38,7 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(50, 50, 50);
+    text-align: left;
 }
 
 .skillBarImg {
@@ -50,7 +51,7 @@
 
 .skillBarText>p {
     font-size: 0.9rem;
-    font-weight: 200;
+    font-weight: 200;    
 }
 
 @media screen and (max-width:720px) {
