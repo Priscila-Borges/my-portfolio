@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.7521b104.css",
+    "main.js": "/my-portfolio/static/js/main.5076cdf0.js",
+    "static/media/priscila-borges-cv.pdf": "/my-portfolio/static/media/priscila-borges-cv.fccc969ed16cf8dcc27b.pdf",
+    "static/media/project2.png": "/my-portfolio/static/media/project2.29f0356672b3bff83a54.png",
+    "static/media/image.png": "/my-portfolio/static/media/image.97486bbcfad003878fc4.png",
+    "static/media/project1.png": "/my-portfolio/static/media/project1.1b19af2cf7d8d070c65e.png",
+    "static/media/linkedInIcon.png": "/my-portfolio/static/media/linkedInIcon.6ac77341c7a1f1743ba6.png",
+    "static/media/project3.png": "/my-portfolio/static/media/project3.254e11134fb83771d51f.png",
+    "static/media/logo.png": "/my-portfolio/static/media/logo.e7b5e1b87e1d212d0a9d.png",
+    "static/media/downloadIcon.webp": "/my-portfolio/static/media/downloadIcon.31992b8232bfcd7a574a.webp",
+    "index.html": "/my-portfolio/index.html",
+    "main.7521b104.css.map": "/my-portfolio/static/css/main.7521b104.css.map",
+    "main.5076cdf0.js.map": "/my-portfolio/static/js/main.5076cdf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7521b104.css",
+    "static/js/main.5076cdf0.js"
+  ]
+}
