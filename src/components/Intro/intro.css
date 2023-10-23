@@ -55,12 +55,14 @@
     height: 2rem;
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 @media screen and (min-width:1600px) {
     .bg {
         right: -9vw
     }
+
     .hello {
         font-size: 4.5vw;
     }

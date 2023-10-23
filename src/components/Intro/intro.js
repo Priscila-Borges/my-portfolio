@@ -1,10 +1,9 @@
 import React from "react";
 import "./intro.css"
-import { Link } from "react-scroll"
 import bg from "../../assets/image.png"
 import LinkedInIcon from "../../assets/linkedInIcon.png"
 import GitHubIcon from "../../assets/github-icon.png"
-import DownloanIcon from "../../assets/downloadIcon.jpg"
+import DownloanIcon from "../../assets/downloadIcon.webp"
 
 
 
@@ -16,9 +15,22 @@ const Intro = () => {
                 <span className="introtext">I'm <span className="introName">Priscila</span> <br />Web Developer</span>
                 <p className="introPara">I am an aspiring web developer with a unique background in HR</p>
                 <div>
-                    <Link><button className="btn">Download my cv <img src={DownloanIcon} alt="Download" className="btnImg" /></button></Link>
-                    <Link><button className="btn"><img src={LinkedInIcon} alt="LinkedIn" className="btnImg" /></button></Link>
-                    <Link><button className="btn"><img src={GitHubIcon} alt="GitHub" className="btnImg" /></button></Link>
+                    <a
+                        href={require("../../assets/priscila-borges-cv.pdf")}
+                        download="priscila-borges-cv.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="btn">
+                            Download my CV <img src={DownloanIcon} alt="Download" className="btnImg" />
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/priscilaborges1989/" target="_blank" rel="noopener noreferrer">
+                        <button className="btn"><img src={LinkedInIcon} alt="LinkedIn" className="btnImg" /></button>
+                    </a>
+                    <a href="https://github.com/Priscila-Borges" target="_blank" rel="noopener noreferrer">
+                        <button className="btn"><img src={GitHubIcon} alt="GitHub" className="btnImg" /></button>
+                    </a>
                 </div>
             </div>
 
