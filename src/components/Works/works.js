@@ -14,7 +14,7 @@ const Works = () => {
                         <img src={Project1Image} alt="Portfolio1" className="worksImg" />
                     </a>
                     <h3>Global Vibes</h3>
-                    <p>Web application project developed as the final assignment for a web development bootcamp. The project is a social media platform where users can share pictures related to specific hobbies.</p>
+                    <p className="projectDesc">Web application project developed as the final assignment for a web development bootcamp. The project is a social media platform where users can share pictures related to specific hobbies.</p>
                     <ul className="tags">
                         <li>REACT</li>
                         <li>BOOTSTRAP</li>
@@ -29,7 +29,7 @@ const Works = () => {
                         <img src={Project2Image} alt="Portfolio2" className="worksImg" />
                     </a>
                     <h3>amsterDay</h3>
-                    <p>The core of the application is to allow users to discover ideas for activities in Amsterdam and create their own activities.</p>
+                    <p className="projectDesc">The core of the application is to allow users to discover ideas for activities in Amsterdam and create their own activities.</p>
                     <ul className="tags">
                         <li>EXPRESS.JS</li>
                         <li>HANDLEBARS.JS</li>
@@ -45,7 +45,7 @@ const Works = () => {
                         <img src={Project3Image} alt="Portfolio3" className="worksImg" />
                     </a>
                     <h3>Race Game</h3>
-                    <p>A a simple and exciting Browser-based game where you control a character and try to jump over obstacles to achieve the highest score possible.</p>
+                    <p className="projectDesc">A a simple and exciting Browser-based game where you control a character and try to jump over obstacles to achieve the highest score possible.</p>
                     <ul className="tags">
                         <li>JAVASCRIPT</li>
                         <li>HTML</li>
