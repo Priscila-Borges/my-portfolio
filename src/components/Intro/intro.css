@@ -10,7 +10,7 @@
 .bg {
     position: absolute;
     top: -4rem;
-    right: -10rem;
+    right: 1rem;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
@@ -52,9 +52,18 @@
 .btnImg {
     object-fit: cover;
     margin: 0 0.25rem;
-    height: 1rem;
+    height: 2rem;
     display: inline-block;
     vertical-align: middle;
+}
+
+@media screen and (min-width:1600px) {
+    .bg {
+        right: -9vw
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
 }
 
 @media screen and (max-width:840px) {
