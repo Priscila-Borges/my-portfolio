@@ -1,54 +1,90 @@
 #works {
-    margin: 0 auto;
-    padding: 0 1rem;
-    min-height: calc(100vh - 4rem);
-    max-width: 60rem;
+    overflow: hidden;
+    min-height: 100vw;
+    max-width: calc(50rem - 4rem);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .worksTitle {
-    margin: 1rem 0;
-    font-size: 3rem;    
+    margin: 1rem 0 0; /* Removed bottom margin */
+    font-size: 3rem;
+    color: white;
 }
 
-.worksDescription {
-    font-weight: 300;
-    font-size: 1rem;
-    max-width: 50rem;
-    padding: 0 2rem;
-    text-align: justify;
-}
-
-.worksImags {
+.workImgs {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+}
+
+.workImgContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Change to column to stack the elements vertically */
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-width: 65rem;   
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding  : 1rem;
+    text-align: center;
+    max-width: 50rem; /* Set a fixed width for the image container */
+    background-color: rgba(245, 245, 245, 0.822);
+    border: 1px;
+}
+
+.workImgContainer img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+}
+
+.workImgContainer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .worksImg {
     object-fit: cover;
-    height: 20rem;
+    width: 40rem;
+    height: 25rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin-left: rem;
+}
+
+.workImgContainer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; /* Adjusted margin to reduce space */
+    color: black;
+}
+
+p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 1.5rem;
+    color: black;
+}
+
+.tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tags li {
+    display: inline-block;
+    background: rgb(50, 50, 50);
+    color: white;
     margin: 0.5rem;
-}
-
-.worksBtn {
-    margin: 3rem 0;
-    padding: 0.5rem 2.5rem;
-    border: none;
-    border-radius: 2rem;
-    background: white;
-    font-size: 1rem;
-}
-
-@media screen and (max-width:580){
-    .worksImag {
-        height: 48vw;
-    }
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
 }
